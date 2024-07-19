@@ -14,3 +14,27 @@ To predict whether a customer will subscribe to a term deposit based on their de
 
 4. Analytic Approach
 We will perform exploratory data analysis to understand the dataset and identify patterns or trends. Following this, we will build a classification model to predict the likelihood of a customer subscribing to a term deposit. This model will be trained using the provided customer data, which includes features such as age, job, balance, housing loan status, and previous campaign outcomes.
+
+
+
+
+The bank marketing campaign dataset has the following columns:
+
+age: Age of the client
+job: Job type
+balance: Account balance
+housing: Housing loan (yes/no)
+loan: Personal loan (yes/no)
+contact: Contact communication type
+month: Last contact month of the year
+campaign: Number of contacts performed during this campaign
+pdays: Number of days since the client was last contacted from a previous campaign
+poutcome: Outcome of the previous marketing campaign
+deposit: Has the client subscribed to a term deposit? (yes/no) [target variable]
+
+Data Preprocessing
+First, I'll add the necessary steps for data preprocessing:
+
+Handling missing values
+Encoding categorical variables
+Feature scaling
