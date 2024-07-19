@@ -27,17 +27,17 @@ By optimizing for precision, we aim to ensure that our marketing efforts are foc
 
 The bank marketing campaign dataset has the following columns:
 
-age: Age of the client
-job: Job type
-balance: Account balance
-housing: Housing loan (yes/no)
-loan: Personal loan (yes/no)
-contact: Contact communication type
-month: Last contact month of the year
-campaign: Number of contacts performed during this campaign
-pdays: Number of days since the client was last contacted from a previous campaign
-poutcome: Outcome of the previous marketing campaign
-deposit: Has the client subscribed to a term deposit? (yes/no) [target variable]
+- age: Age of the client
+- job: Job type
+- balance: Account balance
+- housing: Housing loan (yes/no)
+- loan: Personal loan (yes/no)
+- contact: Contact communication type
+- month: Last contact month of the year
+- campaign: Number of contacts performed during this campaign
+- pdays: Number of days since the client was last contacted from a previous campaign
+- poutcome: Outcome of the previous marketing campaign
+- deposit: Has the client subscribed to a term deposit? (yes/no) [target variable]
 
 Data Preprocessing
 First, I'll add the necessary steps for data preprocessing:
@@ -57,8 +57,8 @@ Make sure to adjust file paths if necessary.
 
 Dependencies
 
-Python 3.x
-requirements.txt
+- Python 3.x
+- requirements.txt
 
 Contributors
 
