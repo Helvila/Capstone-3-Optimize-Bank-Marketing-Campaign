@@ -1,6 +1,5 @@
 # Capstone-3-Optimize-Bank-Marketing-Campaign
 
-## Still On Progress
 
 ## Business Problem
 1. Context
