@@ -1,8 +1,9 @@
-
 pip
-db- dtypes
+db-dtypes
 google-cloud-aiplatform
-google-cloud-big
+google-cloud-bigquery
+google-cloud-storage
+google-auth
 jupyter
 category-encoders==2.6.3
 lightgbm==4.4.0
