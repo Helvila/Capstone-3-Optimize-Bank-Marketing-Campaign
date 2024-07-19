@@ -15,6 +15,14 @@ To predict whether a customer will subscribe to a term deposit based on their de
 4. Analytic Approach
 We will perform exploratory data analysis to understand the dataset and identify patterns or trends. Following this, we will build a classification model to predict the likelihood of a customer subscribing to a term deposit. This model will be trained using the provided customer data, which includes features such as age, job, balance, housing loan status, and previous campaign outcomes.
 
+5. Evaluation Matrix
+
+We will use precision as our primary evaluation metric. The reason for focusing on precision is to minimize the number of false positives, which means reducing the number of customers who are predicted to subscribe but do not actually subscribe. This is particularly important because contacting these customers incurs costs and wastes resources, which we aim to minimize.
+
+False Positive (FP): A customer predicted to subscribe, but who does not, leading to wasted effort and resources. Reducing false positives will help make the marketing campaign more cost-effective.
+False Negative (FN): A potential customer predicted not to subscribe, but who actually does subscribe, resulting in a missed opportunity. While reducing false negatives is also important, our primary focus will be on reducing false positives to improve the efficiency of the campaign.
+By optimizing for precision, we aim to ensure that our marketing efforts are focused on the most promising prospects, thereby improving the overall efficiency and cost-effectiveness of the bank's marketing campaigns.
+
 
 
 
@@ -38,3 +46,20 @@ First, I'll add the necessary steps for data preprocessing:
 Handling missing values
 Encoding categorical variables
 Feature scaling
+
+
+Clone the Repository:
+
+git clone https:[(https://github.com/Helvila/Capstone2-Online_shipping_retail.git)](https://github.com/Helvila/Capstone-3-Optimize-Bank-Marketing-Campaign.git)
+Open the Jupyter Notebook or Python script to execute the analysis.
+Make sure to adjust file paths if necessary.
+
+Dependencies
+
+Python 3.x
+requirements.txt
+
+Contributors
+
+[Helvila]https://github.com/Helvila/
+Contributions are welcome! If you have any suggestions, feature requests, or bug reports, please open an issue or submit a pull request.
