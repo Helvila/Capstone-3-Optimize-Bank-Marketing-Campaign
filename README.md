@@ -49,7 +49,9 @@ Feature scaling
 
 Clone the Repository:
 
-git clone https:[(https://github.com/Helvila/Capstone2-Online_shipping_retail.git)](https://github.com/Helvila/Capstone-3-Optimize-Bank-Marketing-Campaign.git)
+- git clone https:(https://github.com/Helvila/Capstone-3-Optimize-Bank-Marketing-Campaign.git)
+- youtube link : https://youtu.be/KRMkc9MaMxw
+  
 Open the Jupyter Notebook or Python script to execute the analysis.
 Make sure to adjust file paths if necessary.
 
